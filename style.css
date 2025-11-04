@@ -1,0 +1,183 @@
+
+
+/* Configurações básicas e tipografia */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #046a59; /* Cor de fundo suave */
+    border : 12px solid #046a59;
+    box-sizing : border-box;
+    animation: cor da borda infinite ease-in-out;
+}
+
+/* Container principal para centralizar o conteúdo */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo para todas as seções */
+section {
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom: 1px solid #e9ecef; /* Linha divisória sutil */
+}
+
+section:last-of-type {
+    border-bottom: none; /* Remove a linha da última seção */
+}
+
+/* Banner */
+#banner {
+    background-color: #16cca8; 
+    color: rgb(255, 255, 255);
+    padding: 120px 50px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+#banner h1 {
+    font-size: 5rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+#banner p {
+    font-size: 2.0rem;
+    opacity: 1.0;
+    
+}
+/* Estilos para Títulos de Seções */
+h2 {
+    font-size: 2.2rem;
+    color: #ffffff;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+h2::after {
+    content: " ";
+    width: 60px;
+    height: 3px;
+    background-color: #16cca8;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Estilos para itens de serviço */
+.servico-item {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.servico-item h3 {
+    font-size: Georgia;
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Estilos para listas (canais de atendimento) */
+#canais-atendimento ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    
+}
+
+#canais-atendimento li {
+    background: #e9ecef;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+/* Estilos para formulários */
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box; /* Garante que padding não afeta a largura total */
+}
+
+#contact-form textarea {
+    resize: vertical;
+}
+
+#contact-form button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+    background-color: #16cca8;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #046a59; /* Cinza escuro */
+    color: rgb(0, 0, 0);
+    font-size:1.0   rem;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    #banner h1 {
+        font-size: 2.5rem;
+    }
+}
+#canais-atendimento p {
+    color: #e9f3f1;
+    font-size:1.3em;
+    
+
+}
+#localizacao h2{
+    color:#ffffff
+}
+
+#localizacao p{
+    font-size: 1.7rem;
+    color:#ffffff
+}
+#localizacao address{
+    font-size: 1.2rem;
+    color:#ffffff
+    
+}
