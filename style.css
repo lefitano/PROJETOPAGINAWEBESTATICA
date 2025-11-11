@@ -10,7 +10,7 @@ body {
     background-color: #046a59; /* Cor de fundo suave */
     border : 12px solid #046a59;
     box-sizing : border-box;
-    animation: cor da borda infinite ease-in-out;
+    animation:  infinite ease-in-out; /* Cor da borda */
 }
 
 /* Container principal para centralizar o conteúdo */
@@ -147,13 +147,13 @@ h2::after {
     background-color: #16cca8;
 }
 
-/* Rodapé */
+
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #046a59; /* Cinza escuro */
+    background-color: #046a59;
     color: rgb(0, 0, 0);
-    font-size:1.0   rem;
+    font-size:1.0 rem;
     margin-top: 20px;
 }
 
@@ -180,4 +180,38 @@ footer {
     font-size: 1.2rem;
     color:#ffffff
     
+}
+#btnContatoWPP{
+    color:#333;
+    background-color: #def0ec;
+    padding: 2%;
+    border-radius: 5px;
+    font-size:10px;
+    transition: background-color 0.3s;
+    border: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#btnContatoWPP:hover{
+    background-color:#ffffff;
+}
+#btnContatoWPP:active{
+    background-color:#16cca8;
+}
+#btnContatoInsta{
+    color:#333;
+    background-color: #def0ec;
+    padding: 2%;
+    border:none;
+    border-radius: 5px;
+    font-size: 10px;
+    transition: background-color 0.3s;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#btnContatoInsta:hover{
+    background-color: #ffffff;
+}
+#btnContatoInsta:active{
+    background-color: #16cca8;
 }
