@@ -12,4 +12,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
 })
 document.addEventListener("DOMContentLoaded", (event) => {
     const botaoInsta = document.getElementById('btnContatoInsta');
+    botaoInsta.addEventListener('click', () => {
+        const urlINSTA = 'https://www.instagram.com/joabkids?igsh=MXZ0b241enFqamY3Zw==';
+        window.open(urlINSTA, '_blank');
+    })
 })
